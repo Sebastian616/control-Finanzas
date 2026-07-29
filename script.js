@@ -22,12 +22,13 @@ formulario.addEventListener("submit", function (e) {
     localStorage.setItem("gastos", JSON.stringify(gastos))
 
     mostrarGastos();
-    
+
     alert("gasto guardado", descripcion, valor, categoria)
     formulario.reset()
 
 }
 )
+//mostrar los datos almacenados en el localestorage
 
 function mostrarGastos() {
     const lista = document.getElementById("listaGastos")
@@ -50,6 +51,7 @@ function mostrarGastos() {
 
 mostrarGastos();
 
+//da funcionalidad al boton 
 function eliminarGasto(indice) {
     let gastos = JSON.parse(localStorage.getItem("gastos")) || [];
     gastos.splice(indice, 1);
