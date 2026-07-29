@@ -1,0 +1,68 @@
+/* Paleta de colores basada en tu diseño */
+body {
+    background-color: #c2f0c2; /* Verde claro de fondo */
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulo-principal {
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+/* Tarjeta de registro superior */
+.formulario-gasto {
+    background-color: #ffffff;
+}
+
+/* Contenedores estilo tarjetas verdes de tu imagen */
+.bloque-finanzas {
+    background-color: #a3b899; /* Verde oliva */
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    height: 100%; /* Mantiene la misma altura en las tres columnas */
+}
+
+.bloque-finanzas h4 {
+    color: #1e2d1a;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.lista-gastos {
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.input-categoria {
+    background-color: #ffffff;
+    border: none;
+}
+
+.titulo-gastos {
+    color: #ffffff;
+}
+
+/* Fila de elementos dentro de Gastos */
+.item-gasto {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Botón personalizado eliminar */
+.btn-custom-dark {
+    background-color: #8c7662; /* Marrón de tu diseño */
+    color: #ffffff;
+    border: none;
+    padding: 5px 15px;
+    transition: background-color 0.2s ease;
+}
+
+.btn-custom-dark:hover {
+    background-color: #736150;
+    color: #ffffff;
+}
